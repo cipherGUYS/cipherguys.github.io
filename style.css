@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text {
+    color: white;
+}
+
+#about {
+    color: rgb(180, 180, 180)
+}
+
+#head {
+    margin-top: 75px !important;
+    font-weight: bolder;
+}
+
+#who {
+    margin-top: 75px !important;
+    font-weight: bold;
+}
+
+#stats {
+    margin-top: 75px !important;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(150, 28, 28);
+}
+
+a:hover {
+    color: rgb(191, 31, 31);
+}
+
+@media screen and (max-width: 1400px) {
+    .card2 {
+        margin-left: 75px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .card2 {
+        margin-left: 130px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card2 {
+        margin-left: 0px;
+    }
+
+    .card {
+        margin-top: 10px;
+    }
+}
