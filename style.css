@@ -8,6 +8,10 @@
     color: white;
 }
 
+.card {
+    margin-bottom: 20px;
+}
+
 #about {
     color: rgb(180, 180, 180)
 }
@@ -23,7 +27,7 @@
 }
 
 #stats {
-    margin-top: 75px !important;
+    margin-top: 55px !important;
     font-weight: bold;
 }
 
