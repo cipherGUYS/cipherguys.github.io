@@ -40,6 +40,18 @@ a:hover {
     color: rgb(191, 31, 31);
 }
 
+.img-link {
+    cursor: pointer;
+}
+
+.card {
+    transition: transform .7s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
 @media screen and (max-width: 1400px) {
     .card2 {
         margin-left: 75px;
